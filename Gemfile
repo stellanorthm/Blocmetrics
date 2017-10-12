@@ -30,3 +30,8 @@ source 'https://rubygems.org'
    gem 'factory_girl_rails'
    gem 'pry-rails'
  end
+
+ gem 'devise'
+
+ gem 'bootstrap-sass', '~> 3.3.6'
+ gem 'sprockets', '~> 3.0'
