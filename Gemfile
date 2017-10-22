@@ -35,3 +35,7 @@ source 'https://rubygems.org'
 
  gem 'bootstrap-sass', '~> 3.3.6'
  gem 'sprockets', '~> 3.0'
+
+ gem 'chartkick'
+
+ gem 'groupdate'

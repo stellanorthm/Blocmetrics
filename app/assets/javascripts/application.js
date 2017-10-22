@@ -13,6 +13,8 @@
 //= require jquery
 //= require jquery_ujs
 //= require turbolinks
+//= require Chart.bundle
+//= require chartkick
 //= require bootstrap-sprockets
 //= require_tree .
 
@@ -24,5 +26,4 @@ blocmetrics.report = function(eventName){
     request.open("POST", "http://localhost:3000/api/events", true);
     request.setRequestHeader('Content-Type', 'application/json');
     request.send(JSON.stringify(event));
-
   };
